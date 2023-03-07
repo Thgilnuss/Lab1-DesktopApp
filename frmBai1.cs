@@ -49,6 +49,7 @@ namespace Lab1_Bai2_NguyenVanMinhHai
         {
             int soTien = int.Parse(txtgia.Text) * int.Parse(txtsoluong.Text);
             tien.Text = soTien.ToString();
+            soTien = 0;
         }
 
         private void frmBai1_Load(object sender, EventArgs e)

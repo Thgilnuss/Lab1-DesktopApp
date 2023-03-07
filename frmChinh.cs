@@ -27,5 +27,17 @@ namespace Lab1_Bai2_NguyenVanMinhHai
             var form = new frmBai1();
             form.ShowDialog();
         }
+
+        private void bài4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new frmBai4();
+            form.ShowDialog();
+        }
+
+        private void bài2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new Bai2();
+            form.ShowDialog();
+        }
     }
 }

@@ -34,6 +34,7 @@
             this.baiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bài2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bài3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bài4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,8 @@
             this.nguyễnVănMinhHảiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.baiToolStripMenuItem,
             this.bài2ToolStripMenuItem,
-            this.bài3ToolStripMenuItem});
+            this.bài3ToolStripMenuItem,
+            this.bài4ToolStripMenuItem});
             this.nguyễnVănMinhHảiToolStripMenuItem.Name = "nguyễnVănMinhHảiToolStripMenuItem";
             this.nguyễnVănMinhHảiToolStripMenuItem.Size = new System.Drawing.Size(135, 20);
             this.nguyễnVănMinhHảiToolStripMenuItem.Text = "Nguyễn Văn Minh Hải";
@@ -72,6 +74,7 @@
             this.bài2ToolStripMenuItem.Name = "bài2ToolStripMenuItem";
             this.bài2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bài2ToolStripMenuItem.Text = "Bài 2";
+            this.bài2ToolStripMenuItem.Click += new System.EventHandler(this.bài2ToolStripMenuItem_Click);
             // 
             // bài3ToolStripMenuItem
             // 
@@ -79,6 +82,14 @@
             this.bài3ToolStripMenuItem.Name = "bài3ToolStripMenuItem";
             this.bài3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.bài3ToolStripMenuItem.Text = "Bài 3";
+            // 
+            // bài4ToolStripMenuItem
+            // 
+            this.bài4ToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("bài4ToolStripMenuItem.Image")));
+            this.bài4ToolStripMenuItem.Name = "bài4ToolStripMenuItem";
+            this.bài4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.bài4ToolStripMenuItem.Text = "Bài 4";
+            this.bài4ToolStripMenuItem.Click += new System.EventHandler(this.bài4ToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -103,6 +114,7 @@
         private System.Windows.Forms.ToolStripMenuItem baiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bài2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bài3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bài4ToolStripMenuItem;
     }
 }
 
